@@ -1,0 +1,80 @@
+body{ 
+
+    background-color:rgb(192,192,192);
+}
+.topright{ 
+    
+        width: 1%;
+        height: auto;
+    
+}
+
+.text{ 
+    opacity: 70%;
+    font-family: 'Sacramento' ,Courier New;
+    font-size: larger;
+    position: absolute;
+    text-align:center;
+    top:30%;
+    left:42%;
+    
+}
+.text:hover{ 
+   
+}
+.cloud1{
+    position: absolute;
+    left:0;
+    transition: left  0.3s;
+}
+.cloud1:hover{ 
+    position: absolute;
+    left: 30px;
+
+}
+.cloud2{ 
+    position:absolute;
+    right:0;
+    top:60%;
+    transition: right 0.3s;
+}
+.cloud2:hover{ 
+    position: absolute;
+    right: 30px;
+}
+.container{ 
+    position: relative;
+    top:330px;
+    left:460px;
+    width: 30%;
+  
+    background-color: rgb(192,192,192,.5) ;
+    transition: background-color 0.2s;
+    height: 200px;
+}
+.lowertext{ 
+    position: relative;
+    top:1000px;
+}
+.ap{ 
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace
+}
+.lorem{ 
+    font-size: small;
+    padding-top: 10%;
+    text-align:center;
+    color:black;
+    opacity: 50%;
+    transition: font-size 0.3s;
+}
+/*.container:hover{ 
+   you can remove the brackets if you want a colored contaner
+   #background-color: 	rgb(255,69,0,0.9) ;
+    */
+
+
+
+.lorem:hover{ 
+   font-size: large;
+}
